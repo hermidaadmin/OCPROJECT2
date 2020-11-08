@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+
+  }
+.reservia-header {
+    max-width: 85%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.reservia-logo {
+
+    width: 50%;
+}
+
+.lnk-trans {
+
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 375ms ease;
+}
+
+
+.lnk-trans:hover {
+
+    COLOR: black;
+     TEXT-DECORATION: none; 
+     font-weight: none; 
+     opacity:18;
+     background-position: 0 100%;
+}
+
+.A:hover { COLOR: black; TEXT-DECORATION: none; font-weight: none; opacity:18; } 
+
+
+
+.search-section {
+    max-width: 150vw;
+    margin: 0 auto; 
+    display: flex; 
+    
+    
+  }
+  
+  .search-icon {
+    font-size: 1.5vw;
+    padding: 20px; 
+    align-self:flex-start;
+    border-radius: 20px 0px 0px 20px;
+    background-color: lightgray;
+    width: 5vw;
+  }
+  
+  .search-text1  {
+    width: 20%;
+    font-size: 1.5vw;
+    padding: 2px;
+    justify-content: space-between;
+    margin-left: 1vm;
+    
+  }
+  
+  .search-text2 {
+    width: 10%;
+    background-color: #0065FC;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.5vw;
+    
+    
+  }
+
+.filterscriteria {
+
+    flex-direction: row;
+    display:flex;
+    
+}  
+
+.Filters-text {
+   width: 10%;
+}
+
+.filterlowcost {
+    display: flex;
+    border-radius: 28px 28px 27px 27px;  
+    border-style:ridge;
+    width: 13%;
+    margin-right: 2vw;
+}
+
+.filterlowcost:hover {
+  background-color: red;
+}
+    
+
+.filterfamfriendly {
+
+    display: flex;
+    border-radius: 28px 28px 27px 27px;  
+    border-style:ridge;
+    width: 20%;
+    margin-right: 2vw;
+}
+
+.filterfamfriendly:hover {
+    background-color: red;
+}
+
+.filteromantic {
+
+    display: flex;
+    border-radius: 28px 28px 27px 27px;  
+    border-style:ridge;
+    width: 13%;
+    margin-right: 2vw;
+}
+
+.filteromantic:hover {
+    background-color: red;
+}
+
+.filterpets {
+
+    display: flex;
+    border-radius: 28px 28px 27px 27px;  
+    border-style:ridge;
+    width: 18%;
+    margin-right: 2vw;
+}
+
+.filterpets:hover {
+
+    background-color: red;
+}
+
+.lowcost-icon {
+
+    font-size: 2vw;
+    padding: 10px; 
+    align-self:center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    width: 2.5vw;
+}
+
+.lowcost-text {
+    
+margin: 0 0 0 15px;
+
+}
+
+.famfriendly-icon {
+
+    font-size: 2vw;
+    padding: 10px; 
+    align-self:center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    width: 2.5vw;
+}
+
+.famfriendly-text {
+    margin: 0 0 0 15px;
+}
+
+.romantic-icon {
+    
+    font-size: 2vw;
+    padding: 10px; 
+    align-self:center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    width: 2.5vw;
+}
+
+.romantic-text {
+
+    margin: 0 0 0 15px;    
+}
+
+
+.pets-icon {
+
+    font-size: 2vw;
+    padding: 10px; 
+    align-self:center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    width: 2.5vw;
+
+}
+
+.pets-text {
+    margin: 0 0 0 15px;  
+}
+
+.info-section {
+    max-width: 110vw;
+    margin: 0 auto; 
+    display: flex; 
+  
+  }
+  
+  .info-icon {
+    border-radius: 50%;
+    align-self:center;
+    width: 2vw;
+  }
+  
+  .info-text {
+    width: 24%;
+    font-size: 1vw;
+    align-self:center;
+    color: gray;
+    
+  }
+
+.Accomodations-layout {
+    max-width: 100%;
+    flex-direction: row;
+    display: flex;
+    
+
+}
+
+
+.Afirstsection {
+    max-width: 60%;
+    flex-direction: row;
+    display: flex;
+    border-style: ridge;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightgray;
+    margin: 0 20px 0 0;
+
+}
+
+.Asecondsection {
+    max-width: 25%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: ridge;
+    background-color: lightgray;
+
+}
+
+.card-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-wrapper2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.firstsec-tittle {
+    margin: 0 0 0 35px;
+    width: 100%;
+}
+
+.firstsec-end-tittle{
+    margin: 0 0 0 25px;
+    width: 100%;
+
+}
+
+.secondsec-tittle {
+    margin: 0 0 0 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-secondsec {
+
+    width: 3vw;
+    font-size: 2vw;
+    align-self: center;
+}
+
+
+.card-img {
+
+  object-fit: cover;
+  width: 220px;
+  height: 110px;
+  border-radius: 10px 10px 0 0 ;
+  
+}
+
+.card-img2 {
+
+  object-fit: cover;
+  width: 120px;
+  height: 140px;
+  border-radius: 10px 0 0 10px;
+  
+    
+
+}
+
+.firstsec-card1 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 20px;
+    padding: 5px 5px 10px 5px;
+}
+
+.firstsec-card2 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 10px 5px;
+}
+.firstsec-card3 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 20px 10px 10px;
+    padding: 5px 5px 10px 5px;
+}
+
+.firstsec-card4 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 20px;
+    padding: 5px 5px 10px 5px;
+}
+
+
+.firstsec-card5 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 10px 5px;
+}
+
+.firstsec-card6 {
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 20px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 10px 5px;
+}
+.firstartxt {
+    margin: 10px;
+}
+
+
+
+
+.secondsec-card1 {
+    display: flex;
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 20px 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+.secondsec-card2 {
+    display: flex;
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 20px 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.secondsec-card3 {
+    display: flex;
+    background-color: white;
+    border-style: ridge;  
+    border-radius: 10px 10px 10px 10px; 
+    margin: 10px 10px 20px 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+.secondstartxt {
+    margin: 10px;
+}
+
+
+
+
+
+.Acard-img-small {
+
+  object-fit: cover;
+  width: 290px;
+  height: 155px;
+  border-radius: 20px 20px 0 0;
+  
+
+
+}
+
+.Acard-img-big {
+
+    object-fit: cover;
+    width: 281px;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+  
+  
+  }
+
+
+.activ-container {
+    max-width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+
+.Activity-tittle {
+    margin: 0 0 0 15px;
+}
+
+.activtxtdescription {
+    margin: 0 0 0 15px;   
+}
+
+.project_activ-1 {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 20px 0 0;
+}
+
+.sub-proj-activ2 {
+    flex-direction: column;
+    display: flex;
+    margin: 0 20px 0 0;
+}
+.card-seconda {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 0 20px 0;
+
+}
+
+.card-secondb {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.project_activ-3 {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 20px 0 0;
+}
+
+.sub-proj-activ4 {
+    flex-direction: column;
+    display: flex;
+    margin: 0 20px 0 0;
+}
+
+
+.card-fourtha {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 0 20px 0;
+
+}
+
+.card-fourthb {
+    border-style: ridge;
+    border-radius: 20px 20px 20px 20px;
+    
+
+}
+
+
+.company-info {
+    max-width: 88%;
+    background-color: lightgrey;
+}
+
+
+.projfooter {
+    
+    max-width: 80%;
+    flex-direction: row;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.prjtittle1 {
+
+    margin: 0 35px 0 20px;
+}
+
+.prjtittle2 {
+    margin: 0 50px 0 0;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+
+.reservia-logo {
+
+    width: 1%;
+    margin: 0;
+    padding:0;
+
+}
+
+.Accomodation-lnk {
+
+  align-self:flex-end;
+  align-content: left;
+  padding: 50px 0 0 0;
+  flex-shrink: 3;
+
+}
+
+.Activity-lnk {
+
+    align-self:flex-end;
+    padding: 50px 0 0 100px;
+
+    
+}  
+.Signup-lnk{
+    align-self:left;
+
+}
+
+
+.filterscriteria {
+    padding: 3px; 
+    max-width: 90%;
+    flex-wrap: wrap;
+    
+}  
+
+.Filters-text {
+
+    width: 100%;  
+}
+
+
+.filterlowcost {
+
+    width: 33%;
+    margin: 0 10% 5% 0;
+    order: 1;
+}
+
+.filterfamfriendly {
+    
+    width: 63%;
+    margin: 0 30% 0 0;
+    order: 3;
+}
+
+.filteromantic {
+    width: 33%;
+    margin: 0 10% 5% 0;
+    padding: 0%;
+    order: 2;
+}
+
+.filterpets {
+    width: 53%;
+    margin: 7% 0 0 0;
+    order:4;
+
+}
+
+.lowcost-icon {
+
+    font-size: 3vw;
+    padding: 20px; 
+    
+}
+
+
+
+.famfriendly-icon {
+
+    font-size: 3vw;
+    padding: 20px; 
+    
+
+
+}
+
+
+.romantic-icon {
+    font-size: 3vw;
+    padding: 20px; 
+    
+    
+
+}
+
+
+
+
+.pets-icon {
+    font-size: 3vw;
+    padding: 20px; 
+    
+
+}
+
+.Accomodations-layout {
+    max-width: 100%;
+    flex-direction: column-reverse;
+    
+
+}
+
+.Afirstsection {
+    max-width: 60%;
+    border-style: none;
+    background-color: white;
+    
+    
+
+}
+
+.Asecondsection {
+    max-width: 60%;
+    border-style: none;
+    background-color: lightgrey;
+    
+    
+}
+
+.card-img {
+
+    object-fit: cover;
+    width: 277px;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card-wrapper {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.activ-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.sub-proj-activ2 {
+    flex-direction: column;
+    
+}
+.sub-proj-activ4 {
+    flex-direction: column;
+
+}
+
+.project_activ-1 {
+    border-style: none;
+     
+}
+
+ 
+.card-seconda {
+    border-style: none;
+     
+}
+
+.card-secondb {
+    border-style: none;
+     
+}
+
+.project_activ-3 {
+    border-style: none;
+    
+}
+
+
+.card-fourtha {
+    border-style: none;
+    
+
+}
+
+.card-fourthb {
+    border-style: none;
+     
+    
+
+}
+
+.projfooter {
+
+    flex-direction: column;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.company-info {
+    background-color: white;
+}
+
+.prjtittle1 {
+
+    margin: 0px;
+}
+  
+  .Acard-img-big {
+  
+    object-fit: cover;
+    width: 290px;
+    height: 155px;
+    
+    
+    }
+
+
+
+
+
+}
+
+
