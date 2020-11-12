@@ -28,7 +28,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
     background-position: 100%;
-    transition: background-position 375ms ease;
+    transition: background-position 575ms ease;
 }
 
 
@@ -37,7 +37,7 @@ body {
     COLOR: black;
      TEXT-DECORATION: none; 
      font-weight: none; 
-     opacity:18;
+     opacity:98;
      background-position: 0 100%;
 }
 
@@ -55,30 +55,40 @@ body {
   
   .search-icon {
     font-size: 1.5vw;
-    padding: 20px; 
+    padding: 15px; 
     align-self:flex-start;
     border-radius: 20px 0px 0px 20px;
     background-color: lightgray;
-    width: 5vw;
+    width: 2.5vw;
   }
   
   .search-text1  {
     width: 20%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding: 2px;
     justify-content: space-between;
-    margin-left: 1vm;
+    margin-left: 18px;
     
   }
   
   .search-text2 {
-    width: 10%;
+    width: 8%;
     background-color: #0065FC;
     border-radius: 0 20px 20px 0;
-    font-size: 1.5vw;
-    
+    font-size: 1.2vw;
     
   }
+
+.serach-text2-changeicon{
+    font-size: 1.5vw;
+    padding: 15px; 
+    align-self:flex-start;
+    border-radius: 20px 0px 0px 20px;
+    background-color:  #0065FC;
+    width: 2.5vw;
+    visibility: hidden;
+
+}
 
 .filterscriteria {
 
@@ -147,7 +157,7 @@ body {
 .lowcost-icon {
 
     font-size: 2vw;
-    padding: 10px; 
+    padding: 12px 10px 11px 10px; 
     align-self:center;
     border-radius: 50%;
     background-color: #DEEBFF;
@@ -163,7 +173,7 @@ margin: 0 0 0 15px;
 .famfriendly-icon {
 
     font-size: 2vw;
-    padding: 10px; 
+    padding: 12px 10px 11px 10px; 
     align-self:center;
     border-radius: 50%;
     background-color: #DEEBFF;
@@ -177,7 +187,7 @@ margin: 0 0 0 15px;
 .romantic-icon {
     
     font-size: 2vw;
-    padding: 10px; 
+    padding: 12px 10px 11px 10px; 
     align-self:center;
     border-radius: 50%;
     background-color: #DEEBFF;
@@ -193,7 +203,7 @@ margin: 0 0 0 15px;
 .pets-icon {
 
     font-size: 2vw;
-    padding: 10px; 
+    padding: 12px 10px 11px 10px; 
     align-self:center;
     border-radius: 50%;
     background-color: #DEEBFF;
@@ -552,6 +562,25 @@ margin: 0 0 0 15px;
 
 }
 
+.search-text2 {
+    width: 8%;
+    background-color: #0065FC;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.2vw;
+    visibility: hidden;
+
+    
+  }
+
+.serach-text2-changeicon{
+    font-size: 1.5vw;
+    padding: 15px; 
+    align-self:flex-start;
+    border-radius: 20px 0px 0px 20px;
+    background-color:  #0065FC;
+    width: 1.5vw;
+    visibility: visible;
+}
 
 .filterscriteria {
     padding: 3px; 
@@ -669,6 +698,39 @@ margin: 0 0 0 15px;
     display: flex;
     justify-content: space-around;
 }
+
+
+
+.firstsec-card1 {
+    
+    border-style:none;
+}
+
+.firstsec-card2 {
+    
+    border-style:none;
+}
+
+.firstsec-card3 {
+    
+    border-style:none;
+}
+
+.firstsec-card4 {
+    
+    border-style:none;
+}
+
+.firstsec-card5 {
+    
+    border-style:none;
+}
+
+.firstsec-card6 {
+    
+    border-style:none;
+}
+
 
 
 .activ-container {
