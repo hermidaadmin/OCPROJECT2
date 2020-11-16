@@ -23,7 +23,6 @@ body {
 
     overflow: hidden;
     background: linear-gradient(to right,WHITE,WHITE 50%,WHITE 50%);
-    background-clip: text;
     background-size: 200% 100%;
     background-position: 100%;
     transition: background-position 575ms ease;
@@ -34,7 +33,7 @@ body {
 
     COLOR: black;
      TEXT-DECORATION: none; 
-     font-weight: 1px;
+     font-weight: 100;
      opacity:98;
      background-position: 0 100%;
 }
@@ -553,7 +552,7 @@ margin: 0 0 0 15px;
     .Accomodation-lnk {
     
       align-self:flex-end;
-      align-content: left;
+      align-content: inherit;
       padding: 50px 0 0 0;
       flex-shrink: 3;
     
@@ -567,7 +566,7 @@ margin: 0 0 0 15px;
         
     }  
     .Signup-lnk{
-        align-self:left;
+        align-self: start;
     
     }
 
@@ -853,7 +852,6 @@ margin: 0 0 0 15px;
     .Accomodation-lnk {
     
       align-self:flex-end;
-      align-content: left;
       padding: 50px 0 0 0;
       flex-shrink: 3;
     
@@ -866,10 +864,6 @@ margin: 0 0 0 15px;
     
         
     }  
-    .Signup-lnk{
-        align-self:left;
-    
-    }
     
     .search-text2 {
         width: 8%;
