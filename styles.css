@@ -22,10 +22,8 @@ body {
 .lnk-trans {
 
     overflow: hidden;
-    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background: linear-gradient(to right,WHITE,WHITE 50%,WHITE 50%);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
     background-position: 100%;
     transition: background-position 575ms ease;
@@ -36,12 +34,11 @@ body {
 
     COLOR: black;
      TEXT-DECORATION: none; 
-     font-weight: none; 
+     font-weight: 1px;
      opacity:98;
      background-position: 0 100%;
 }
 
-.A:hover { COLOR: black; TEXT-DECORATION: none; font-weight: none; opacity:18; } 
 
 
 
@@ -69,6 +66,18 @@ body {
     justify-content: space-between;
     margin-left: 18px;
     
+  }
+
+
+  .search-text-attr1 {
+
+    align-self:center;
+  }
+
+  .search-text-attr2 {
+
+    color:white;
+    text-align:center;
   }
   
   .search-text2 {
@@ -236,7 +245,7 @@ margin: 0 0 0 15px;
     
   }
 
-.Accomodations-layout {
+  .Accomodations-layout {
     max-width: 100%;
     flex-direction: row;
     display: flex;
@@ -529,51 +538,59 @@ margin: 0 0 0 15px;
 
 
 
+/*        section to iphone 6,7  */
+@media screen and (max-width: 375px) {
 
-@media screen and (max-width: 700px) {
 
-
-.reservia-logo {
-
-    width: 1%;
-    margin: 0;
-    padding:0;
-
-}
-
-.Accomodation-lnk {
-
-  align-self:flex-end;
-  align-content: left;
-  padding: 50px 0 0 0;
-  flex-shrink: 3;
-
-}
-
-.Activity-lnk {
-
-    align-self:flex-end;
-    padding: 50px 0 0 100px;
-
+    .reservia-logo {
     
-}  
-.Signup-lnk{
-    align-self:left;
+        width: 1%;
+        margin: 0;
+        padding:0;
+    
+    }
+    
+    .Accomodation-lnk {
+    
+      align-self:flex-end;
+      align-content: left;
+      padding: 50px 0 0 0;
+      flex-shrink: 3;
+    
+    }
+    
+    .Activity-lnk {
+    
+        align-self:flex-end;
+        padding: 50px 0 0 85px;
+    
+        
+    }  
+    .Signup-lnk{
+        align-self:left;
+    
+    }
 
-}
+
+    .search-text1  {
+        
+        font-size: 3vw;
+        
+        
+      }
 
 .search-text2 {
     width: 8%;
     background-color: #0065FC;
     border-radius: 0 20px 20px 0;
-    font-size: 1.2vw;
+    font-size: 2vw;
     visibility: hidden;
 
     
   }
 
 .serach-text2-changeicon{
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 15px; 
     align-self:flex-start;
     border-radius: 20px 0px 0px 20px;
@@ -584,7 +601,7 @@ margin: 0 0 0 15px;
 
 .filterscriteria {
     padding: 3px; 
-    max-width: 90%;
+    max-width: 100%;
     flex-wrap: wrap;
     
 }  
@@ -597,8 +614,8 @@ margin: 0 0 0 15px;
 
 .filterlowcost {
 
-    width: 33%;
-    margin: 0 10% 5% 0;
+    width: 45%;
+    margin: 0 5% 5% 0;
     order: 1;
 }
 
@@ -610,8 +627,8 @@ margin: 0 0 0 15px;
 }
 
 .filteromantic {
-    width: 33%;
-    margin: 0 10% 5% 0;
+    width: 40%;
+    margin:0;
     padding: 0%;
     order: 2;
 }
@@ -660,6 +677,9 @@ margin: 0 0 0 15px;
 
 }
 
+
+
+
 .Accomodations-layout {
     max-width: 100%;
     flex-direction: column-reverse;
@@ -677,7 +697,7 @@ margin: 0 0 0 15px;
 }
 
 .Asecondsection {
-    max-width: 60%;
+    max-width: 100%;
     border-style: none;
     background-color: lightgrey;
     
@@ -814,3 +834,299 @@ margin: 0 0 0 15px;
 }
 
 
+
+
+
+/*        section to IPAD  */
+
+@media screen and (min-width: 380px) and (max-width: 981px) {
+
+
+    .reservia-logo {
+    
+        width: 1%;
+        margin: 0;
+        padding:0;
+    
+    }
+    
+    .Accomodation-lnk {
+    
+      align-self:flex-end;
+      align-content: left;
+      padding: 50px 0 0 0;
+      flex-shrink: 3;
+    
+    }
+    
+    .Activity-lnk {
+    
+        align-self:flex-end;
+        padding: 50px 0 0 100px;
+    
+        
+    }  
+    .Signup-lnk{
+        align-self:left;
+    
+    }
+    
+    .search-text2 {
+        width: 8%;
+        background-color: #0065FC;
+        border-radius: 0 20px 20px 0;
+        font-size: 1.2vw;
+        visibility: hidden;
+    
+        
+      }
+    
+    .serach-text2-changeicon{
+        font-size: 2vw;
+        padding: 15px; 
+        align-self:flex-start;
+        border-radius: 20px 0px 0px 20px;
+        background-color:  #0065FC;
+        width: 1.5vw;
+        visibility: visible;
+    }
+    
+    .filterscriteria {
+        padding: 3px; 
+        max-width: 100%;
+        flex-wrap: wrap;
+        
+    }  
+    
+    .Filters-text {
+    
+        width: 100%;  
+    }
+    
+    
+    .filterlowcost {
+    
+        width: 45%;
+        margin: 0 5% 5% 0;
+        order: 1;
+    }
+    
+    .filterfamfriendly {
+        
+        width: 63%;
+        margin: 0 30% 0 0;
+        order: 3;
+    }
+    
+    .filteromantic {
+        width: 40%;
+        margin:0;
+        padding: 0%;
+        order: 2;
+    }
+    
+    .filterpets {
+        width: 53%;
+        margin: 7% 0 0 0;
+        order:4;
+    
+    }
+    
+    .lowcost-icon {
+    
+        font-size: 3vw;
+        padding: 20px; 
+        
+    }
+    
+    
+    
+    .famfriendly-icon {
+    
+        font-size: 3vw;
+        padding: 20px; 
+        
+    
+    
+    }
+    
+    
+    .romantic-icon {
+        font-size: 3vw;
+        padding: 20px; 
+        
+        
+    
+    }
+
+    .info-text {
+        width: 34%;
+        font-size: 2vw;
+        
+      }
+    
+    
+    
+    
+    .pets-icon {
+        font-size: 3vw;
+        padding: 20px; 
+        
+    
+    }
+
+
+    
+    .Accomodations-layout {
+        max-width: 100%;
+        flex-direction: column-reverse;
+        
+    
+    }
+    
+    .Afirstsection {
+        max-width: 60%;
+        border-style: none;
+        background-color: white;
+        
+        
+    
+    }
+    
+    .Asecondsection {
+        max-width: 40%;
+        border-style: none;
+        background-color: lightgrey;
+        
+        
+    }
+    
+    .card-img {
+    
+        object-fit: cover;
+        width: 277px;
+        height: 110px;
+        border-radius: 10px 10px 0 0;
+    
+    }
+    
+    .card-wrapper {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+    .firstsec-card1 {
+        
+        border-style:none;
+    }
+    
+    .firstsec-card2 {
+        
+        border-style:none;
+    }
+    
+    .firstsec-card3 {
+        
+        border-style:none;
+    }
+    
+    .firstsec-card4 {
+        
+        border-style:none;
+    }
+    
+    .firstsec-card5 {
+        
+        border-style:none;
+    }
+    
+    .firstsec-card6 {
+        
+        border-style:none;
+    }
+    
+    
+    
+    .activ-container {
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .sub-proj-activ2 {
+        flex-direction: column;
+        
+    }
+    .sub-proj-activ4 {
+        flex-direction: column;
+    
+    }
+    
+    .project_activ-1 {
+        border-style: none;
+         
+    }
+    
+     
+    .card-seconda {
+        border-style: none;
+         
+    }
+    
+    .card-secondb {
+        border-style: none;
+         
+    }
+    
+    .project_activ-3 {
+        border-style: none;
+        
+    }
+    
+    
+    .card-fourtha {
+        border-style: none;
+        
+    
+    }
+    
+    .card-fourthb {
+        border-style: none;
+         
+        
+    
+    }
+    
+    .projfooter {
+    
+        flex-direction: column;
+        display: flex;  
+        justify-content: space-between;
+    }
+    
+    .company-info {
+        background-color: white;
+    }
+    
+    .prjtittle1 {
+    
+        margin: 0px;
+    }
+      
+      .Acard-img-big {
+      
+        object-fit: cover;
+        width: 290px;
+        height: 155px;
+        
+        
+        }
+    
+    
+    
+    
+    
+    }
+    
