@@ -19,27 +19,15 @@ body {
     width: 50%;
 }
 
-.lnk-trans {
-
-    overflow: hidden;
-    background: linear-gradient(to right,WHITE,WHITE 50%,WHITE 50%);
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 575ms ease;
-}
-
-
 .lnk-trans:hover {
 
-    COLOR: black;
-     TEXT-DECORATION: none; 
+     
+     font: bold;
      font-weight: 100;
+     text-decoration-color: black;
      opacity:98;
-     background-position: 0 100%;
 }
-
-
-
+     
 
 .search-section {
     max-width: 150vw;
@@ -817,7 +805,7 @@ margin: 0 0 0 15px;
     margin: 0px;
 }
   
-  .Acard-img-big {
+.Acard-img-big {
   
     object-fit: cover;
     width: 290px;
@@ -985,7 +973,7 @@ margin: 0 0 0 15px;
     }
     
     .Asecondsection {
-        max-width: 40%;
+        max-width: 60%;
         border-style: none;
         background-color: lightgrey;
         
